@@ -1,0 +1,96 @@
+/* default styles */
+body {
+    background-color: #212121;
+    text-align: center;
+    color: #FAF9F6;
+    padding: 0;
+    margin: 0;
+    font-size: 1.375rem;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+}
+
+.logo {
+    height: 3.125rem;
+}
+/* default styles end */
+/* nav bar */
+nav {
+    margin: 0 .625rem;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+}
+/*  TODO ---- fix spacing around nav links */
+.nav-links {
+
+}
+
+.header-container {
+    /* position: absolute; */
+    display: grid;
+    height: 4.313rem;
+}
+
+
+.hero {
+    /* top: 4.313rem; */
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 87%;
+    height: 43.75rem;
+    margin: 0 auto;
+    background-image: url('../images/img-mission-background.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.mission-statement {
+    width: 100%;
+    background-color: #212121;
+}
+
+.tea-of-month-container {
+    width: 45.455rem;
+    display: grid;
+    /* 3 separate strings and 3 letters in string */
+    grid-template-areas:"a a a" "b c d";
+}
+
+.month-tea {
+    grid-area: a;
+}
+
+.tea1 {
+    grid-area: b;
+}
+
+.tea2 {
+    grid-area: c;
+}
+
+.tea3 {
+    grid-area: d;
+}
+
+.tea4 {
+    grid-area: e;
+}
+
+.tea5 {
+    grid-area: f;
+}
+
+.tea{
+    width:13.636rem;
+    height:9.091rem;
+}
+
+
+
+
+/* 4 grids --- nav bar, tea of the month, locations, footer */
